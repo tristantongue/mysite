@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Tristan Tongue</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('daw.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>The Mathematical Relationships of Music</h1>
+            <h2>Examining how music is born out of patterns</h2>
+            <span class="meta">Posted by
+              <a href="#">Tristan Tongue</a>
+              on October 25, 2020</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Creating music has never been more accessible. Anyone who owns a computer has access to an infinite number of sounds and tools that can be used to make music. Every Mac comes with a free digital audio workspace (DAW), equipped with digital synthesizers and virtual instruments, so throwing down a four on the floor and writing music is possible for anyone who has the interest in it. But for those with limited musical knowledge it’s hard to jump into making music that sounds good. How to know where to begin?</p>
+
+          <img src="./rave.jpg" height="426" width="640" /> 
+          <blockquote class="blockquote">"Music is the pleasure the human mind experiences from counting without being aware that it is counting." - Gottfried Willhelm Leibniz</blockquote>
+
+          <h2 class="section-heading">Music is Mathematical</h2>
+
+          <p>Music is mathematical – it is the mathematical relationships between individual sounds that transform them into music. Differences in time, frequency, and amplitude contribute to a piece of music, just to name a few metrics. Four kick drum hits each played half a second apart is the beginning of a groove, whereas four of them at random intervals probably isn’t. Two separate chords with harmonious frequencies will sound nice, whereas too much dissonance and they will not feel musical. Whether or not sound is music, or even if a sound is musical, ultimately rests on mathematical relationships between individual sounds.</p>
+
+          <p>It is with this mindset that I decided to write my first program to assist in making these decisions. One of the first decisions to be made is what key to play in? In mathematical terms, this question asks which frequencies will be present in the piece of music. Do we want a major or a minor key? Which note do we want to be the “home” of the song? Once we’ve made this decision, how do we know which other notes and chords will be harmonious and compatible?</p>
+
+          <p><b>My simple program asks these basic questions, and returns answers to them.</b></p>
+
+          <p>The answers to these questions are all instances of the same patterns. Major keys always follow the same pattern, as do minor keys. In other words, a musical key’s structure is constant, but its content changes. For example, if I know which notes and chords are in the C major scale, I should also be able to figure out all other major scales. My small program does just that. I can feed it a root note, and ask for either the major or minor scale, and the program returns all of the key’s notes and chords.</p>
+
+          <img src="chords.png" >
+          <blockquote class="blockquote">Using an array of 12 elements each representing a different note, the algorithm selects the notes and chords that exist within the key.</blockquote>
+          <!-- <p>Try it out below :)</p>-->
+
+         <!-- <form action="./keyboard.py" method="GET">
+            <label for="octave">Root Note:</label>
+            <input type="text" id="octave" name="key"><br><br>
+
+
+            <label for="scale">Major Key</label>
+            <input type="radio" id="scale" name="majorinterval"><br>
+
+            <label for="scale">Minor Key</label>
+            <input type="radio" id="scale" name="minorinterval"><br><br>
+
+
+            <input type="submit" value="Submit">
+          </form>
+        -->
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/tristan-tongue-ba6902184/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/tristantongue">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://soundcloud.com/tristanmt">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Tristan Tongue 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
