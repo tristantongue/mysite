@@ -45,7 +45,7 @@ def main():
         page_output = page['output']
 
         template = build_template(page_title)
-        content = page_content.read()
+        content = open(page_content).read()
         finished_page = build_page(template, content)
         open(page_output, "w+").write(finished_page)
 
