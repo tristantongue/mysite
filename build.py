@@ -50,5 +50,5 @@ def main():
         open(page_output, "w+").write(finished_page)
 
 
-
-main()
+if __name__ == "__main__":
+    main()
